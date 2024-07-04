@@ -58,4 +58,3 @@ function minDifference(nums: number[]): number {
         biggest[3] - smallest[3] ].filter((value)=>value >= 0);
     return results[findSmallestIndex(results)];
 };
-console.log(minDifference([6,6,0,1,1,4,6]));

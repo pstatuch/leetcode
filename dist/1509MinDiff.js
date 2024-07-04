@@ -52,10 +52,6 @@ function minDifference(nums) {
         biggest[2] - smallest[2],
         biggest[3] - smallest[3]
     ].filter((value) => value >= 0);
-    console.log(smallest);
-    console.log(biggest);
-    console.log(results);
     return results[findSmallestIndex(results)];
 }
 ;
-console.log(minDifference([6, 6, 0, 1, 1, 4, 6]));
